@@ -20,6 +20,3 @@ install_requirements:
 
 requirements.txt:
 	conda list --export
-
-clean:
-	rm -rf __pycache__
