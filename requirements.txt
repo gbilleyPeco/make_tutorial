@@ -1,2 +1,2 @@
-m2w64-make
+m2w64-make=4.1.2351.a80a8b8
 requests=2.28.1

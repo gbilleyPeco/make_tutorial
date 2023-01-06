@@ -18,5 +18,5 @@ run:
 install_requirements:
 	conda install --file requirements.txt
 
-requirements.txt:
-	conda list --export
+requirements_all.txt:
+	conda list --export > requirements_all.txt
