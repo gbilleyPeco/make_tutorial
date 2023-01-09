@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-output_path = os.path.join('..', 'data')
+output_path = os.path.join('data')
 data = pd_read_csv(os.path.join(output_path, 'data.csv'))
 
 data_output = data*2
