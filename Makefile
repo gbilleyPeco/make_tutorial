@@ -5,7 +5,7 @@
 PROJECT_NAME = make_tutorial
 
 #################################################################################
-# COMMANDS                                                                      #
+# COMMANDS    (for project 1)                                                   #
 #################################################################################
 
 create_environment:
@@ -20,3 +20,17 @@ install_requirements:
 
 requirements_all.txt:
 	conda list --export > requirements_all.txt
+
+#################################################################################
+# COMMANDS    (for project 2)                                                   #
+#################################################################################
+
+pull_data:
+	pull_data.py
+
+run_model: pull_data
+	run_model.py
+
+output_analysis: run_model
+	output_analysis.py
+	
