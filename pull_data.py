@@ -11,4 +11,4 @@ data = pd.DataFrame([
     ])
 
 output_path = os.path.join('..', 'data')
-data.to_csv(ps.path.join(output_path, 'data.csv'))
+data.to_csv(os.path.join(output_path, 'data.csv'))
