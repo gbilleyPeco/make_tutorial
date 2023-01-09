@@ -10,5 +10,5 @@ data = pd.DataFrame([
     {'A': 5, 'B':1}
     ])
 
-output_path = os.path.join('..', 'data')
+output_path = os.path.join('data')
 data.to_csv(os.path.join(output_path, 'data.csv'))
