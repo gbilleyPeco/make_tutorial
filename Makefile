@@ -26,11 +26,10 @@ requirements_all.txt:
 #################################################################################
 
 pull_data:
-	pull_data.py
+	python pull_data.py
 
 run_model: pull_data
-	run_model.py
+	python run_model.py
 
 output_analysis: run_model
-	output_analysis.py
-	
+	python output_analysis.py
