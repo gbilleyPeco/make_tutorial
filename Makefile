@@ -25,7 +25,7 @@ requirements_all.txt:
 # COMMANDS    (for project 2)                                                   #
 #################################################################################
 
-pull_data:
+pull_data: sql_statements.py
 	python pull_data.py
 
 run_model: pull_data

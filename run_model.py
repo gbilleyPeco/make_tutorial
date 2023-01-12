@@ -5,4 +5,4 @@ output_path = os.path.join('data')
 data = pd.read_csv(os.path.join(output_path, 'data.csv'))
 
 data_output = data*2
-data_output.to_csv(os.path.join(output_path, 'data_output.csv'))
+data_output.to_csv(os.path.join(output_path, 'data_output.csv'), index=False)
