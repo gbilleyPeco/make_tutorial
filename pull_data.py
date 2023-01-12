@@ -12,3 +12,6 @@ data = pd.DataFrame([
 
 output_path = os.path.join('data')
 data.to_csv(os.path.join(output_path, 'data.csv'))
+
+
+# This has been updated
